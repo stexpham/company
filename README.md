@@ -1,31 +1,42 @@
-# Oinam Jekyll
+# Portfolio Blog Starter
 
-> A simple, clean, and minimal Jekyll Theme.
+This is a porfolio site template complete with a blog. Includes:
 
-- [Demo & Documentation](https://oinam.github.io/oinam-jekyll/)
-- [Source](https://github.com/oinam/oinam-jekyll)
-- [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)
+- MDX and Markdown support
+- Optimized for SEO (sitemap, robots, JSON-LD schema)
+- RSS Feed
+- Dynamic OG images
+- Syntax highlighting
+- Tailwind v4
+- Vercel Speed Insights / Web Analytics
+- Geist font
 
-## Gem
+## Demo
 
-[Oinam Jekyll](https://rubygems.org/gems/oinam-jekyll)
+https://portfolio-blog-starter.vercel.app
 
+## How to Use
+
+You can choose from one of the following two methods to use this repository:
+
+### One-Click Deploy
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+
+### Clone and Deploy
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+
+```bash
+pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
 ```
-$ gem build oinam-jekyll.gemspec
-$ gem push oinam-jekyll-x.x.x.gem
+
+Then, run Next.js in development mode:
+
+```bash
+pnpm dev
 ```
 
-## Todo
-
-- [ ] Style Tables
-- [ ] Split the CSS and Javascript on their own files, the inclusion or exclusion should be user defined. Make it an optional config setting.
-- [ ] Demo: Themes / Color Scheme Preview?
-- [ ] Split Styles into more cleaner separation -- base, grid, gallery, etc.
-- [ ] Fix Gallery
-- [ ] Remove any enforcements such as YouTube embeds. Keep the code for backward compatibility?
-- [ ] Lunr for Search as default?
-- [ ] Print Styles based off Gutenberg (or pick something that does not depend on normalize). Add this theme specific styles.
-- [ ] Reading progress on top bar.
-- [ ] Look at [Tufte CSS](https://edwardtufte.github.io/tufte-css/) for the layout, styles, and especially that Sidenotes/Footnotes.
-- [x] Spit out the Styles separate so it can just be referenced on its own from a simple HTML site.
-- [x] Toggle description in the header.
+Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
